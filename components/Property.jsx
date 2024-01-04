@@ -50,7 +50,7 @@ const Property = ({
                         </Box>
                         {/* Price */}
                         <Text fontWeight="bold" fontSize="lg">
-                            AED {millify(price)}
+                            PKR {millify(price)}
                             {rentFrequency && `/${rentFrequency}`}
                         </Text>
                     </Flex>

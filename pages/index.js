@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
-import { React } from "react";
+// import { React } from "react";
 
 import { baseURL, fetchApi } from "../utils/fetchApi";
 import Property from "../components/Property";
@@ -52,8 +52,8 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
       {/* Banner for renting property */}
       <Banner
         purpose="RENT A HOME"
-        title1="Rental Homes for"
-        title2="Everyone"
+        title1=" Rental Homes for"
+        title2="Every Lifestyle"
         desc1="Explore Apartments, Villas, Homes"
         desc2="and more"
         buttonText="Explore Renting"
