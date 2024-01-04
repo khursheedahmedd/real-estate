@@ -19,7 +19,7 @@ const Banner = ({
 }) => (
   <Flex flexWrap="wrap" justifyContent="center" alignItems="center" m="20">
     {/* Image */}
-    <Image src={imageURL} width={600} height={400} alt="banner" />
+    <Image src={imageURL} width={500} height={300} alt="banner" />
 
     {/* Text */}
     <Box p="5">
