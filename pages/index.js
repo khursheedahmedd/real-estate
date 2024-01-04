@@ -38,7 +38,7 @@ const Banner = ({
       </Text>
 
       {/* Button */}
-      <Button fontSize="xl">
+      <Button fontSize="xl" bg="purple.600" color="white" fontWeight="bold">
         <Link href={linkName}>{buttonText}</Link>
       </Button>
     </Box>
