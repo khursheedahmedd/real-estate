@@ -9,7 +9,7 @@ const Footer = () => (
         borderTop="1px"
         borderColor="gray.100"
     >
-        {/* {new Date().getFullYear()} Property-Pulse, Inc. */}
+        {new Date().getFullYear()} Property-Pulse, Inc.
     </Box>
 );
 
