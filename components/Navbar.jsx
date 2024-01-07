@@ -19,7 +19,6 @@ const Navbar = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
 
     const handleLogin = () => {
-
         setIsLoggedIn(true);
     };
 
