@@ -18,6 +18,7 @@ const Layout = ({ children }) => (
             </header>
             {/* Main Body */}
             <main>{children}</main>
+
             {/* Footer */}
             <footer>
                 <Footer />
