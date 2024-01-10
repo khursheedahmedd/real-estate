@@ -64,12 +64,12 @@ const Navbar = () => {
             <Box>
                 {!isLoggedIn && (
                     <>
-{/*                         <Button onClick={handleLogin} mr="1">
+                        <Button onClick={handleLogin} mr="1">
                             Login
                         </Button>
                         <Button colorScheme="purple" onClick={handleLogin}>
                             Sign Up
-                        </Button> */}
+                        </Button>
                     </>
                 )}
             </Box>
