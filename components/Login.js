@@ -10,11 +10,6 @@ const Login = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Here, you can add your login logic
-        // For example, you can validate the credentials and authenticate the user
-
-        // For demo purposes, let's assume authentication is successful
-        // Redirect to a dashboard or home page after login
         router.push("/dashboard");
     };
 
