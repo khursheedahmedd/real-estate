@@ -61,7 +61,7 @@ const Navbar = () => {
                 </Menu>
             </Box>
             {/* Conditional rendering of Login and Sign Up Buttons */}
-{/*             <Box>
+            <Box>
                 {!isLoggedIn && (
                     <>
                         <Button onClick={handleLogin} mr="1">
@@ -72,7 +72,7 @@ const Navbar = () => {
                         </Button>
                     </>
                 )}
-            </Box> */}
+            </Box>
         </Flex>
     );
 };
